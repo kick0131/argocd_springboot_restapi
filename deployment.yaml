@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-restapi
+  labels:
+    app: springboot-restapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springboot-restapi
+  template:
+    metadata:
+      labels:
+        app: springboot-restapi
+    spec:
+      containers:
+      - name: springboot-restapi
+        image: gcr.io/mypractice-353108/studyspringboot-main:135e21c
+        imagePullPolicy: Always
+        ports:
+        - name: http-server
+          containerPort: 8080

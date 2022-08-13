@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springboot-restapi
-        image: gcr.io/mypractice-353108/studyspringboot-main:135e21c
+        image: gcr.io/mypractice-353108/studyspringboot-main:efb4e5b
         imagePullPolicy: Always
         ports:
         - name: http-server

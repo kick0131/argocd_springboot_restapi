@@ -1,7 +1,7 @@
 # Manifest file for kubernetes
 Google Cloud のArtifact RegistryからPodを作成するサンプル
 
-!(description)[https://github.com/kick0131/argocd_springboot_restapi/raw/images/scope.png]
+![description](https://github.com/kick0131/argocd_springboot_restapi/raw/images/scope.png)
 赤い部分がスコープ
 
 | file | description |

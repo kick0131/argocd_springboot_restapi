@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-restapi-deploy
+spec:
+  template:
+    spec:
+      containers:
+      - name: springboot-restapi
+        image: kick0131/springboot-demo:0.0.1
+
